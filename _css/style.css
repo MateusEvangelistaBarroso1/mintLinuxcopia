@@ -1,0 +1,207 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; font-family: sans-serif;}
+body{
+    width: 1366px;
+    height: 656px;
+    background: rgb(51, 48, 48);
+   
+   
+}
+
+
+div#firstLayer{
+    width: 50%;
+    height: 100%;
+    background: rgb(238, 72, 72);
+  
+    border: 2px solid rgb(8, 8, 8);
+}   
+
+div.screen{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 4px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px black,
+                0 0 15px black,
+                0 0  25px black,
+                0 0 30px black;
+    top: 25%;
+    left: 5%;
+    
+    
+}
+
+
+div p.paragraph{
+    color: white;
+    text-align: center;
+    margin-top: 40%;
+    text-transform: uppercase;
+    font-size: 20pt;
+   
+}
+ul{
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 430px;
+    
+
+}
+li.red{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+
+}
+li.default{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+li.green{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+    transition: color 1.5s;
+}
+li.green:hover{
+    color: green;
+    transition: 1.5s;
+    font-size: 21pt;
+}
+li.blue{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+li.blue:hover{
+    color: blue;
+    transition: 1.5s;
+    font-size: 21pt;
+}
+li.red:hover{
+  color: red;
+  transition: 1s;
+  font-size: 21pt;
+}
+
+li.yellow{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+li.yellow:hover{
+    color: yellow;
+    font-size: 21pt;
+    transition: 1.5s;
+}
+li.gray{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+li.gray:hover{
+    color: gray;
+    transition: 1.5s;
+    font-size: 21pt;
+    
+}
+li.purple{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+li.purple:hover{
+    color: purple;
+    transition: 1.5s;
+    font-size: 21pt;
+}
+li.black{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+
+li.orange{
+    list-style: none;
+    font-size:15pt;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0  5px black;
+    transition:  color 1s;
+    cursor: pointer;
+}
+li.black:hover{
+    color: #000000;
+    transition: 1.5s;
+    font-size: 21pt;
+}
+li.orange:hover{
+    color: orange;
+    transition: 1.5s;
+    font-size: 21pt;
+}
+
+header.headerH{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    margin-left: 650px;
+}
+header div#date{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size:17pt;
+}
+
+header div#time{
+    font-size: 20pt;
+    margin-top: 30px;
+       
+    color: white;
+    text-align: center;
+}
